@@ -1,29 +1,37 @@
 .wrapper {
-  width: 1440px;
+  max-width: 1440px;
+  min-width: 835px;
   height: 6575px;
   font-family: "Roboto";
 }
+
 .what-to-learn {
-  margin-bottom: 150px;
+  height: 600px;
+  
 }
 
-#second-part h1 {
+.what-to-learn h1 {
+  width: 667px;
+  height: 93px;
   font-family: "Roboto Slab";
   font-size: 55px;
   font-weight: 700;
   margin-left: 121px;
 }
 
-.what-to-learn li {
+.what-to-learn ul {
+  width: 662px;
+  margin-left: 138px;
   font-family: "Roboto";
   font-weight: 400;
-  font-size: 24px;
-  width: 662px;
-  margin-left: 138px; 
+  font-size: 24px; 
 }
 
+
 .course-program h1 {
-  margin-bottom: 70px;
+  font-family: "Roboto Slab";
+  font-size: 55px;
+  font-weight: 700;
 }
 
 .steps {
@@ -32,32 +40,7 @@
   flex-wrap: wrap;
   gap: 37px;
   margin-left: 84px;
-}
-
-#second-part img {
-  width: 399px;
-  height: 160px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-}
-
-section h2 {
-  font-weight: 700;
-  font-size: 30px;
-  margin-top: 5px;
-  margin-left: 20px;
-}
-
-section p {
-  font-size: 25px;
-}
-
-.date {
-  margin: 10px auto 0px 20px;
-}
-
-.name {
-  margin: 0px auto 15px 20px;
+  margin-top: 110px;
 }
 
 .steps section {
@@ -68,27 +51,55 @@ section p {
   margin-top: 20px;
 }
 
-@media screen and (min-width: 421px) and (max-width: 834px) {
+#second-part img {
+  width: 399px;
+  height: 160px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
 
+.steps h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
 
-  h1 {
+.steps p {
+  font-size: 25px;
+}
+
+#line {
+  line-height: 29.1px;
+}
+
+.program-date {
+  margin: 10px auto 0px 20px;
+}
+
+.program-name {
+  margin: 0px auto 15px 20px;
+}
+
+@media screen and (max-width: 834px) and (min-width: 376px) {
+  .wrapper {
+    width: 834px;
+    height: 3800px;
+  }
+
+  .what-to-learn h1 {
+    width: 386.3px;
+    height: 53.86px;
     font-size: 32px;
   }
 
-  ul li {
+  .what-to-learn ul {
+    width: 383.41px;
+    height: 216.61px;
     font-size: 14px;
   }
 
-  section {
-    width: 231px;
-    height: 189px;
-  }
-
-  .steps {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 37px;
-    margin-left: 84px;
+  .course-program h1 {
+    font-size: 32px;
   }
 }
