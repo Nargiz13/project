@@ -1,13 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .wrapper {
   max-width: 1440px;
-  min-width: 835px;
+  min-width: 1271px;
   height: 6575px;
   font-family: "Roboto";
 }
 
 .what-to-learn {
   height: 600px;
-  
 }
 
 .what-to-learn h1 {
@@ -25,13 +29,14 @@
   font-family: "Roboto";
   font-weight: 400;
   font-size: 24px; 
+  padding-left: 15px;
 }
-
 
 .course-program h1 {
   font-family: "Roboto Slab";
   font-size: 55px;
   font-weight: 700;
+  margin-left: 121px;
 }
 
 .steps {
@@ -39,8 +44,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 37px;
-  margin-left: 84px;
-  margin-top: 110px;
 }
 
 .steps section {
@@ -82,24 +85,112 @@
 }
 
 @media screen and (max-width: 834px) and (min-width: 376px) {
-  .wrapper {
-    width: 834px;
-    height: 3800px;
+
+  .what-to-learn {
+    height: 350px;
   }
 
   .what-to-learn h1 {
     width: 386.3px;
     height: 53.86px;
     font-size: 32px;
+    margin-left: 70px;
   }
 
   .what-to-learn ul {
     width: 383.41px;
     height: 216.61px;
     font-size: 14px;
+    margin-left: 70px;
   }
 
   .course-program h1 {
+    margin-left: 70px;
     font-size: 32px;
   }
+
+  .steps {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: -35px;
+    top: -50px;
+  }
+
+  .steps section {
+    width: 231.09px;
+    height: 189.97px;
+  }
+
+  #second-part img {
+    width: 231.09px;
+    height: 92.67px;
+  }
+
+  .steps h2 {
+    font-size: 14px;
+  }
+  
+  .steps p {
+    font-size: 17px;
+  }
+
+  #line {
+    line-height: 16.49px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 1270px) {
+  .what-to-learn {
+    height: 200px;
+  }
+
+  /*.what-to-learn h1 {
+    width: 386.3px;
+    height: 53.86px;
+    font-size: 32px;
+    margin-left: 70px;
+  }
+
+  .what-to-learn ul {
+    width: 383.41px;
+    height: 216.61px;
+    font-size: 14px;
+    margin-left: 70px;
+  }
+
+  .course-program h1 {
+    margin-left: 70px;
+    font-size: 32px;
+  }
+
+  .steps {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: -35px;
+    top: -50px;
+  }
+
+  .steps section {
+    width: 231.09px;
+    height: 189.97px;
+  }
+
+  #second-part img {
+    width: 231.09px;
+    height: 92.67px;
+  }
+
+  .steps h2 {
+    font-size: 14px;
+  }
+  
+  .steps p {
+    font-size: 17px;
+  }
+
+  #line {
+    line-height: 16.49px;
+  } */
 }
